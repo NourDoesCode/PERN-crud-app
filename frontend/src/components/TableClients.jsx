@@ -83,12 +83,12 @@ function TableClients() {
                   ></button>
                 </td>
                 <td>
-                  <button className="btn rounded-lg bg-fuchsia-700 font-bold text-white">
+                  <button className="btn rounded-lg bg-fuchsia-700  text-white">
                     Update
                   </button>
                 </td>
                 <td>
-                  <button className="btn rounded-lg bg-red-700 font-bold text-white">
+                  <button className="btn rounded-lg bg-red-700  text-white">
                     Delete
                   </button>
                 </td>

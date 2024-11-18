@@ -1,11 +1,11 @@
-function Navbar() {
+function Navbar({ onOpen }) {
   return (
-    <div>
+    <div className="">
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <a className="btn btn-ghost text-xl">Clients</a>
         </div>
-        <div className="navbar-center  border-fuchsia-600"></div>
+        <div className="navbar-center border-fuchsia-600"></div>
 
         <div className="form-control">
           <input
@@ -16,7 +16,9 @@ function Navbar() {
         </div>
 
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <button className="btn btn-success" onClick={onOpen}>
+            Add Client
+          </button>
         </div>
       </div>
     </div>
