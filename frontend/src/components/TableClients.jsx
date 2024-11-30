@@ -59,7 +59,7 @@ function TableClients() {
             <tr>
               <th></th>
               <th>Name</th>
-              <th>Email</th>
+              <th>Emaill</th>
               <th>Jobb</th>
               <th>Rate</th>
               <th>Status</th>
